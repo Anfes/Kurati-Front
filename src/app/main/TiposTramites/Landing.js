@@ -45,9 +45,9 @@ function Landing() {
         </Grid>
       </Grid>
       <Grid container justifyContent="center">
-        <Grid item xs={11} lg={10}>
+        {/* <Grid item xs={11} lg={10}>
           ruleta----------------------
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );
