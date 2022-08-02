@@ -42,7 +42,7 @@ function Login() {
         <CardContent className={clsx(classes.leftSection, 'w-full p-40 flex flex-col flex-1')}>
           <div className="flex items-center justify-center md:justify-start">
             <a href="/">
-              <img src="/assets/images/logos/logo_vigpro white.png" className="w-128" />
+              <img src="/assets/images/logos/kurati_white_logo.png" className="w-128" />
             </a>
             <div className="mx-10 h-16 w-2 bg-white" />
             <p className="text-white font-600 text-18">Trámites</p>

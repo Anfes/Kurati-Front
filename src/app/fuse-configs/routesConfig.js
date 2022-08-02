@@ -17,7 +17,7 @@ import OlvidarContraseñaFuncConfig from 'app/main/olvidarContraseñaFuncionario
 import ConfirmarEmailCiudadanoConfig from 'app/main/confirmarEmailCiudadano/ConfirmarEmailCiudadanoConfig';
 import ConfirmarEmailFuncionarioConfig from 'app/main/confirmarEmailFuncionario/ConfirmarEmailFuncionarioConfig';
 
-import TiposTramites from 'app/main/TiposTramites/TiposTramites';
+import TiposTramites from 'app/main/TiposTramites/Landing';
 
 const routeConfigs = [
   ...appsConfigs,

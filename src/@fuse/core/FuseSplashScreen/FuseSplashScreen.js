@@ -5,7 +5,7 @@ function FuseSplashScreen() {
     <div id="fuse-splash-screen">
      			<div className="center">
 				<div className="logo">
-					<img width="350" src="assets/images/logos/logo_vigpro.png" alt="logo" />
+					<img width="350" src="assets/images/logos/kurati_purple_logo.png" alt="logo" />
 					{/* <img width="256" src="assets/images/logos/loading_vigpro.png" alt="logo" /> */}
 				</div>
 				<div className="spinner-wrapper">

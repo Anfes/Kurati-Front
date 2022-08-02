@@ -43,8 +43,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   secundary: {
-    background: '#4FDFC8',
-    color: '#023E73',
+    background: '#31F2D0',
+    color: '#4F0CDD',
     borderRadius: 8,
     padding: 14,
     '&:hover': {
@@ -121,20 +121,18 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   linkButton: {
-    background: 'white',
-    color: '#145C9C',
-    textDecoration: 'underline',
+    background: 'transparent',
+    color: '#fff',
     borderRadius: 8,
     padding: 14,
     '&:hover': {
       textDecoration: 'underline',
-      background: 'white',
-      color: '#2E7EC5',
+      color: '#6B7097',
     },
     '&:focus': {
       textDecoration: 'underline',
-      background: 'white',
-      color: '#51A4ED',
+      background: 'transparent',
+      color: '#6B7097',
     },
     '&:disabled': {
       textDecoration: 'underline',

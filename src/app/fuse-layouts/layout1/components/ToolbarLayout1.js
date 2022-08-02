@@ -46,7 +46,7 @@ function ToolbarLayout1(props) {
             )}
             <div className='flex items-center'>
               <a href='/dashboard'>
-                <img src='/assets/images/logos/logo_vigpro.png' style={{width:'10.8rem'}} />
+                <img src='/assets/images/logos/kurati_purple_logo.png' style={{width:'10.8rem'}} />
               </a>
               <div className='mx-10 h-16 w-2 bg-primary' />
               <p className='text-primary font-600 text-16'>

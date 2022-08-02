@@ -1,5 +1,5 @@
 import { authRoles } from 'app/auth';
-import TiposTramites from './TiposTramites';
+import TiposTramites from './Landing';
 
 const TiposTramitesConfig = {
   settings: {
