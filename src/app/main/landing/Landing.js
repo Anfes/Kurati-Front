@@ -1,12 +1,15 @@
-import { Grid, Typography } from '@mui/material';
-import { LeftArrowIcon, RightArrowIcon } from '@components/FuseSvgIcon';
-
-import CustomNavbar from '@components/CustomNavbar';
-import clsx from 'clsx';
-import { createStyles, makeStyles } from '@mui/styles';
-import CustomButton from '@components/CustomButton';
-import { Carousel } from '@trendyol-js/react-carousel';
 import { useState } from 'react';
+import clsx from 'clsx';
+
+import { createStyles, makeStyles } from '@mui/styles';
+import { Carousel } from '@trendyol-js/react-carousel';
+
+import CustomButton from '@components/CustomButton';
+import CustomNavbar from '@components/CustomNavbar';
+
+import { Grid, IconButton, Typography } from '@mui/material';
+import { LeftArrowIcon, RightArrowIcon } from '@components/FuseSvgIcon';
+import WhatsappRoundedIcon from '@mui/icons-material/WhatsappRounded';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -52,29 +55,52 @@ function Landing() {
             </div>
           </Grid>
         </Grid>
+        <IconButton className="flex justify-end items-end fixed right-10 bottom-10 z-999">
+          <div
+            className="w-52 h-52 flex justify-center items-center rounded-full "
+            style={{ backgroundColor: '#31F2D0' }}
+          >
+            <WhatsappRoundedIcon className="text-24" style={{ color: '#4F0CDD' }} />
+          </div>
+        </IconButton>
       </Grid>
-      <Grid container justifyContent="center">
+      <Grid container justifyContent="center" className="mb-32">
         <Grid item xs={11} lg={10}>
+          <div className="flex justify-center">
+            <Typography className="font-semibold text-16 mb-20" color="#3C00BB">
+              Nuestros Aliados
+            </Typography>
+          </div>
           <div className="w-full">
             <Carousel
               show={4}
               slide={3}
               swiping
               useArrowKeys
+              infinite
               rightArrow={
-              <div className='flex items-center h-full'>
-              <RightArrowIcon />
-              </div>
-            }
-              leftArrow={<LeftArrowIcon />}
+                <div className="flex items-center h-full">
+                  <RightArrowIcon />
+                </div>
+              }
+              leftArrow={
+                <div className="flex items-center h-full">
+                  <LeftArrowIcon />
+                </div>
+              }
             >
               {dataCarousel.map((e) => {
-                return <div className="w-160 h-80 bg-blue">{e.data} 🌐</div>;
+                return <div className="ml-52 w-160 h-80 bg-blue">{e.data} 🌐</div>;
               })}
             </Carousel>
           </div>
         </Grid>
       </Grid>
+        <Grid container justifyContent="center" style={{background:'linear-gradient(180deg, #FFFFFF 0%, #EFE8FF 100%)'}} >
+          <Grid item xs={11} lg={10}>
+            siu
+          </Grid>
+        </Grid>
     </div>
   );
 }
