@@ -13,18 +13,18 @@ const useStyles = makeStyles((theme) =>
       '& .MuiOutlinedInput-root': {
         minHeight: 43,
         '& .MuiInputBase-root-MuiOutlinedInput-root': {
-          color: '#BDD7EF',
+          color: '#C4C8EF',
         },
         '& .MuiOutlinedInput-notchedOutline': {
-          borderColor: '#BDD7EF',
+          borderColor: '#C4C8EF',
           borderWidth: 1,
         },
         '&:hover .MuiOutlinedInput-notchedOutline': {
-          borderColor: '#00274A',
+          borderColor: '#651DFF',
           borderWidth: 1,
         },
         '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-          borderColor: '#145C9C',
+          borderColor: '#651DFF',
           borderWidth: 1,
         },
         '&.Mui-error .MuiOutlinedInput-notchedOutline': {
@@ -32,11 +32,11 @@ const useStyles = makeStyles((theme) =>
           borderWidth: 1,
         },
         '&.Mui-disabled': {
-          background: '#F9FCFF',
-          color: '#9DB8D1',
-          borderColor: '#BDD7EF',
+          background: '#F7F8FC',
+          color: '#878BB4',
+          borderColor: '#C4C8EF',
           '&:hover .MuiOutlinedInput-notchedOutline': {
-            borderColor: '#BDD7EF',
+            borderColor: '#C4C8EF',
             borderWidth: 1,
           },
         },
@@ -47,16 +47,16 @@ const useStyles = makeStyles((theme) =>
         fontSize: 12,
         marginBottom: '-2px',
         '&:focused': {
-          color: '#145C9C',
+          color: '#651DFF',
         },
         '&:hover': {
-          color: '#223240',
+          color: '#262940',
         },
         '&.Mui-error': {
           color: '#FF4D4D',
         },
         '&.Mui-disabled': {
-          color: '#9DB8D1',
+          color: '#878BB4',
         },
       },
       '& .MuiFormHelperText-root': {
@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) =>
         backgroundColor: 'white',
         marginTop: '-3px',
         '&.Mui-focused': {
-          color: '#145C9C',
+          color: '#651DFF',
           fontWeight: 500,
           backgroundColor: 'white',
           marginTop: '0px',
@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) =>
           backgroundColor: 'white',
         },
         '&.Mui-disabled': {
-          color: '#9DB8D1',
+          color: '#878BB4',
           backgroundColor: 'white',
         },
       },

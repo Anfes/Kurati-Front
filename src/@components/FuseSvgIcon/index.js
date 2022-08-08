@@ -5,3 +5,5 @@ export { default as DocumentIcon } from './DocumentIcon';
 export { default as TrashIcon } from './TrashIcon';
 export { default as RightArrowIcon } from './RightArrowIcon';
 export { default as LeftArrowIcon } from './LeftArrowIcon';
+export { default as MessageIcon } from './MessageIcon';
+export { default as TiktokIcon } from './TiktokIcon';
